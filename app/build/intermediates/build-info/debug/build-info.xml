@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="28"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="23"
     build-mode="FULL"
-    density="420dpi"
+    density="xxxhdpi"
     format="10"
     plugin-version="3.2.1"
-    timestamp="1546322084678"
+    timestamp="1546328002418"
     token="-5213926379872717207"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -18,7 +18,7 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="196" />
     <task
         name="verifier"
         duration="0" />
@@ -59,13 +59,10 @@
     <artifact
         location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1546322084678"
+        timestamp="1546328002418"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -103,9 +100,6 @@
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-        <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

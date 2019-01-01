@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
 MERGED from [gun0912.ted:tedpermission:2.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/tedpermission-2.0.0.aar/24ece740eb801ddee18ae03124626e12/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b4db7c8304e14f0c5193200d60978060/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/terry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d64361856600ee3b79f8880a236ce3b6/AndroidManifest.xml:2:1-11:12
@@ -32,20 +32,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/terry/.gradle/caches/
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9889460e5d29d68f45fab2db969e6723/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6bc0e390a7dafb36879719db3feca552/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:3:11-57
 		INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-27:12
 		INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:11-69
@@ -61,12 +61,16 @@ uses-permission#android.permission.CAMERA
 ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:7:5-65
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:7:22-62
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:5-79
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:5-71
 	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:22-76
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:22-68
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:10:5-24:19
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:11:5-25:19
 MERGED from [gun0912.ted:tedpermission:2.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/tedpermission-2.0.0.aar/24ece740eb801ddee18ae03124626e12/AndroidManifest.xml:9:5-13:19
 MERGED from [gun0912.ted:tedpermission:2.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/tedpermission-2.0.0.aar/24ece740eb801ddee18ae03124626e12/AndroidManifest.xml:9:5-13:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/terry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d64361856600ee3b79f8880a236ce3b6/AndroidManifest.xml:9:5-20
@@ -78,31 +82,31 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/terry/.gradl
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/44ea7c29d362f5463898b94764e65e45/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:15:13-39
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:16:13-39
 	android:label
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:13:13-45
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:14:13-45
 	android:roundIcon
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:14:13-58
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:15:13-58
 	android:icon
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:12:13-47
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:13:13-47
 	android:allowBackup
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:11:13-39
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:12:13-39
 	android:theme
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:16:13-44
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:17:13-44
 activity#com.example.terry.rokafsecuritycheck.InitialActivity
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:17:9-23:20
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:18:9-24:20
 	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:17:19-50
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:18:19-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:18:13-22:29
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:19:13-23:29
 action#android.intent.action.MAIN
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:19:17-68
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:20:17-68
 	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:19:25-66
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:21:17-76
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:22:17-76
 	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:21:27-74
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml

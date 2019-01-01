@@ -10,18 +10,19 @@ import android.os.Environment;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
 import com.gun0912.tedpermission.PermissionListener;
 import com.gun0912.tedpermission.TedPermission;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.Map;
+import java.util.*;
 
 public class InitialActivity extends AppCompatActivity {
 
     PackageManager pm;
+    private final String TAG = "MASTER_LOG";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,15 +42,20 @@ public class InitialActivity extends AppCompatActivity {
 
                 Log.d("MASTER_LOG", "sdCard : " + sdCard);
                 Log.d("MASTER_LOG", "externalSdCard : " + externalSdCard);
+                Log.d(TAG, "allStorageLocations Size : " + getAllStorageLocations().size());
+                SdCardUtil.getSDCardPathEx();
 
                 // 허락을 한 경우 실행할 부분
                 pm = getPackageManager();
 
-                Toast.makeText(InitialActivity.this, "extenal : " + externalMemoryAvailable(InitialActivity.this), Toast.LENGTH_SHORT).show();
+                if(externalMemoryAvailable(InitialActivity.this))
+                    Toast.makeText(InitialActivity.this, "external : 사용 가능(장착됨)", Toast.LENGTH_SHORT).show();
+                else
+                    Toast.makeText(InitialActivity.this, "external : 사용 불가능(마운트되지 않음)", Toast.LENGTH_SHORT).show();
+
                 checkCamera();
                 checkMicAvailability();
                 Log.d("MASTER_LOG", "onPermissionGranted: " + StorageUtils.getStorageList());
-
             }
 
             @Override
@@ -73,111 +79,6 @@ public class InitialActivity extends AppCompatActivity {
         else
             return false;
 
-    }
-
-    protected boolean checkExternalCard() {
-        // Check whether ExternalCard is in the device
-        String status = Environment.getExternalStorageState();
-        boolean mExternalStorageAvailable = false;
-        boolean mExternalStorageWriteable = false;
-
-        Log.d("MASTER_LOG > ", Environment.getExternalStorageState());
-
-        if (status.equals(Environment.MEDIA_MOUNTED))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드가 장착되어 있습니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equals(Environment.MEDIA_MOUNTED_READ_ONLY))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드가 장착되어 있지만 읽기 전용이므로 쓰기가 불가능 합니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equals(Environment.MEDIA_REMOVED))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드가 장착되어 있지 않습니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equals(Environment.MEDIA_SHARED))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드가 장착되어 있지만, USB 저장 장치로 PC에서 사용중입니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equals(Environment.MEDIA_BAD_REMOVAL))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드의 마운트를 해제하기 전에 제거 했습니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equals(Environment.MEDIA_CHECKING))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드를 확인중 입니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equalsIgnoreCase(Environment.MEDIA_NOFS))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드는 장착되어 있지만, 공백이거나 지원되지 않는 "+
-                            "파일 시스템을 이용하고 있습니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equalsIgnoreCase(Environment.MEDIA_UNMOUNTABLE))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드는 장착되어 있지만, 마운트 할 수 없습니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else if (status.equalsIgnoreCase(Environment.MEDIA_UNMOUNTED))
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "SD카드는 존재하지만, 마운트 되어있지 않습니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-        else
-        {
-            Toast.makeText(
-                    InitialActivity.this,
-                    "기타요인으로 이용 불가능한 상태 입니다.",
-                    Toast.LENGTH_LONG
-            ).show();
-        }
-
-        return (mExternalStorageAvailable && mExternalStorageWriteable);
-    }
-
-    public boolean externalMemoryAvailable() {
-        if (Environment.isExternalStorageRemovable()) {
-            //device support sd card. We need to check sd card availability.
-            String state = Environment.getExternalStorageState();
-            return state.equals(Environment.MEDIA_MOUNTED) || state.equals(
-                    Environment.MEDIA_MOUNTED_READ_ONLY);
-        } else {
-            //device not support sd card.
-            return false;
-        }
     }
 
     protected boolean checkCamera() {
@@ -219,6 +120,21 @@ public class InitialActivity extends AppCompatActivity {
         MediaRecorder recorder = new MediaRecorder();
         boolean available = true;
 
+        // Temporary Source Code
+        String[] externalArray;
+        String secondaryStorage = System.getenv("SECONDARY_STORAGE");
+        String externalStorage = System.getenv("EXTERNAL_STORAGE");
+
+        if (secondaryStorage != null) {
+            externalArray = secondaryStorage.split(":");
+        } else {
+            externalArray = new String[0];
+        }
+
+        Log.d(TAG, "externalStorage : " + externalStorage);
+        Log.d(TAG, "secondaryStorage : " + secondaryStorage);
+        Log.d(TAG, "externalArray : " + externalArray.toString());
+
         try {
             recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
             recorder.setOutputFormat(MediaRecorder.OutputFormat.DEFAULT);
@@ -234,5 +150,24 @@ public class InitialActivity extends AppCompatActivity {
 
         recorder.release();
         return available;
+    }
+
+    public static final String SD_CARD = "sdCard";
+    public static final String EXTERNAL_SD_CARD = "externalSdCard";
+    private static final String ENV_SECONDARY_STORAGE = "SECONDARY_STORAGE";
+
+    public static Map<String, File> getAllStorageLocations() {
+        Map<String, File> storageLocations = new HashMap<>(10);
+        File sdCard = Environment.getExternalStorageDirectory();
+        storageLocations.put(SD_CARD, sdCard);
+        final String rawSecondaryStorage = System.getenv(ENV_SECONDARY_STORAGE);
+        if (!TextUtils.isEmpty(rawSecondaryStorage)) {
+            String[] externalCards = rawSecondaryStorage.split(":");
+            for (int i = 0; i < externalCards.length; i++) {
+                String path = externalCards[i];
+                storageLocations.put(EXTERNAL_SD_CARD + String.format(i == 0 ? "" : "_%d", i), new File(path));
+            }
+        }
+        return storageLocations;
     }
 }

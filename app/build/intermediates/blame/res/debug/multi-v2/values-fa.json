@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
+            "outputFile": "/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b4db7c8304e14f0c5193200d60978060/res/values-fa/values-fa.xml",

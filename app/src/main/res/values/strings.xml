@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ROKAFSecurityCheck</string>
+    <string name="app_title">대한민국 공군</string>
+    <string name="app_subtitle">병사 상용정보통신장비 보안점검 APP</string>
+    <string name="cd_logo">AppLogo</string>
+    <string name="msg_wait">잠시만 기다려 주세요</string>
 </resources>

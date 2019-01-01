@@ -12,7 +12,6 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
@@ -25,7 +24,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.terry.rokafsecuritycheck.MainActivity" >
+        <activity android:name="com.example.terry.rokafsecuritycheck.MainActivity" />
+        <activity android:name="com.example.terry.rokafsecuritycheck.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

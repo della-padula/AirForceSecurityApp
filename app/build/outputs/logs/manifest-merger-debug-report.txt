@@ -7,6 +7,7 @@ INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main
 MERGED from [gun0912.ted:tedpermission:2.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/tedpermission-2.0.0.aar/24ece740eb801ddee18ae03124626e12/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b4db7c8304e14f0c5193200d60978060/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/terry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d64361856600ee3b79f8880a236ce3b6/AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/9e8e9eb8b7d30a7a766178e9366f4509/AndroidManifest.xml:2:1-7:12
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6b983c1530e538684afd0e9df62513b6/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/e31316ab88859b121e3888c140a94294/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/6bd49668f1559fa9437d9c6e32998224/AndroidManifest.xml:17:1-22:12
@@ -23,15 +24,15 @@ MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/terry/.gradl
 MERGED from [com.android.support:support-compat:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/44ea7c29d362f5463898b94764e65e45/AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d1dd194d2e5ac143fa7d7ef703bc1c14/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ef11f393d169376a7668a34b88e1d010/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6fd8de3da1bc52346dfffd9b387f01dd/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f0055ba84e6c58e1ea948b10bd2f02a0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c234274c750adfb0b05af443e6b2ec63/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/419bbffbbdff9d743e846749a6b1fbbd/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a30af761befd4584e7caedc6f3ba9bcb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0223233eb60572f354e836a438ad65e4/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9889460e5d29d68f45fab2db969e6723/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6bc0e390a7dafb36879719db3feca552/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6fd8de3da1bc52346dfffd9b387f01dd/AndroidManifest.xml:17:1-22:12
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-28:12
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:1-28:12
@@ -50,31 +51,27 @@ INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main
 	xmlns:android
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:5:5-81
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:5:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:6:5-80
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:6:5-79
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.CAMERA
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:7:5-65
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:7:5-64
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:7:22-62
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:5-75
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:5-74
 	android:name
 		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:8:22-72
-uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:9:5-81
-	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:10:5-79
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:9:5-78
 	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:10:22-76
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:9:22-76
 application
-ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:12:5-26:19
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:11:5-26:19
 MERGED from [gun0912.ted:tedpermission:2.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/tedpermission-2.0.0.aar/24ece740eb801ddee18ae03124626e12/AndroidManifest.xml:9:5-13:19
 MERGED from [gun0912.ted:tedpermission:2.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/tedpermission-2.0.0.aar/24ece740eb801ddee18ae03124626e12/AndroidManifest.xml:9:5-13:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/terry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d64361856600ee3b79f8880a236ce3b6/AndroidManifest.xml:9:5-20
@@ -86,21 +83,25 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/terry/.gradl
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/44ea7c29d362f5463898b94764e65e45/AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:17:13-39
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:16:13-39
 	android:label
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:15:13-45
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:14:13-45
 	android:roundIcon
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:16:13-58
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:15:13-58
 	android:icon
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:14:13-47
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:13:13-47
 	android:allowBackup
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:13:13-39
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:12:13-39
 	android:theme
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:18:13-44
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:17:13-44
 activity#com.example.terry.rokafsecuritycheck.MainActivity
+ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:18:9-49
+	android:name
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:18:19-47
+activity#com.example.terry.rokafsecuritycheck.SplashActivity
 ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:19:9-25:20
 	android:name
-		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:19:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -121,6 +122,8 @@ MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/terry/.gradle/cache
 MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b4db7c8304e14f0c5193200d60978060/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/terry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d64361856600ee3b79f8880a236ce3b6/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/terry/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/d64361856600ee3b79f8880a236ce3b6/AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/9e8e9eb8b7d30a7a766178e9366f4509/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.7.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/butterknife-8.7.0.aar/9e8e9eb8b7d30a7a766178e9366f4509/AndroidManifest.xml:5:5-43
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6b983c1530e538684afd0e9df62513b6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/6b983c1530e538684afd0e9df62513b6/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/e31316ab88859b121e3888c140a94294/AndroidManifest.xml:20:5-44
@@ -153,8 +156,6 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/terry/.gradl
 MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/d1dd194d2e5ac143fa7d7ef703bc1c14/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ef11f393d169376a7668a34b88e1d010/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cursoradapter:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/ef11f393d169376a7668a34b88e1d010/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6fd8de3da1bc52346dfffd9b387f01dd/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6fd8de3da1bc52346dfffd9b387f01dd/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f0055ba84e6c58e1ea948b10bd2f02a0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:documentfile:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/f0055ba84e6c58e1ea948b10bd2f02a0/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/c234274c750adfb0b05af443e6b2ec63/AndroidManifest.xml:20:5-44
@@ -163,14 +164,16 @@ MERGED from [com.android.support:print:28.0.0] /Users/terry/.gradle/caches/trans
 MERGED from [com.android.support:print:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/419bbffbbdff9d743e846749a6b1fbbd/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a30af761befd4584e7caedc6f3ba9bcb/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a30af761befd4584e7caedc6f3ba9bcb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0223233eb60572f354e836a438ad65e4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/0223233eb60572f354e836a438ad65e4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9889460e5d29d68f45fab2db969e6723/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/9889460e5d29d68f45fab2db969e6723/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6bc0e390a7dafb36879719db3feca552/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6bc0e390a7dafb36879719db3feca552/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] /Users/terry/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/987b628d919dfb33b4e12681696d0cf2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6fd8de3da1bc52346dfffd9b387f01dd/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/terry/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6fd8de3da1bc52346dfffd9b387f01dd/AndroidManifest.xml:20:5-44
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
 INJECTED from /Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion

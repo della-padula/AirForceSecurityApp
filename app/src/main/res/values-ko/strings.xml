@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ROKAFSecurityCheck</string>
+
+    <string name="app_title">대한민국 공군</string>
+    <string name="app_subtitle">병사 상용정보통신장비 보안점검 APP</string>
+
+    <string name="cd_logo">AppLogo</string>
+    <string name="msg_wait">잠시만 기다려 주세요</string>
+
+    <string name="result_title">상용정보통신장비 보안점검</string>
+    <string name="result_subtitle">잠시만 기다려주세요.</string>
+
+    <string name="camera_title">카메라 점검</string>
+    <string name="camera_content">카메라 제거 여부 결과 내용</string>
+
+    <string name="firmware_title">펌웨어 점검</string>
+    <string name="firmware_content">펌웨어 점검 결과 내용</string>
+
+    <string name="gsm_title">셀룰러/전화 점검</string>
+    <string name="gsm_content">셀룰러/전화 점검 결과 내용</string>
+
+    <string name="gps_title">GPS 점검</string>
+    <string name="gps_content">GPS 점검 결과 내용</string>
+
+    <string name="sdcard_title">SD 카드 점검</string>
+    <string name="sdcard_content">SD 카드 점검 결과 내용</string>
+
+    <string name="no_error">이상 없음</string>
+    <string name="error">제거되지 않음</string>
+
+    <string name="rooted">루팅된 펌웨어 사용중입니다.</string>
+    <string name="no_rooted">루팅되지 않은 정상 펌웨어입니다.</string>
+
+    <string name="progress_title">점검중입니다</string>
+    <string name="progress_content">보안점검 진행중입니다.</string>
+
+    <string name="retry_btn">다시 시도하기</string>
+    <string name="progressing">진행중입니다.</string>
+
+    <string name="no_pass_title">보안 점검 불합격</string>
+    <string name="pass_title">보안 점검 합격</string>
+
+    <string name="no_pass_content">미흡 사항을 조치하고 다시 시도하세요.</string>
+    <string name="pass_content">부대로 반입하시기 바랍니다.</string>
+</resources>

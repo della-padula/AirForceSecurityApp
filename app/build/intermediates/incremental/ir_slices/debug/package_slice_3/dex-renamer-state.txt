@@ -1,4 +1,4 @@
-#Tue Jan 01 18:29:07 KST 2019
+#Sat Jan 12 11:58:40 KST 2019
 base.0=/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/transforms/dexMerger/debug/3
 path.0=classes.dex
 renamed.0=classes.dex

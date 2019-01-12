@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ROKAFSecurityCheck</string>
+
+    <string name="app_title">ROK Air Force</string>
+    <string name="app_subtitle">Security Check APP</string>
+
+    <string name="cd_logo">AppLogo</string>
+    <string name="msg_wait">Please Wait</string>
+
+    <string name="result_title">Tablet Security Check</string>
+    <string name="result_subtitle">Please Wait</string>
+
+    <string name="camera_title">Camera Check</string>
+    <string name="camera_content">Camera Check Result</string>
+
+    <string name="firmware_title">Firware Check</string>
+    <string name="firmware_content">Firmware Check Result</string>
+
+    <string name="gsm_title">LTE/Phone Check</string>
+    <string name="gsm_content">LTE/Phone Check Result</string>
+
+    <string name="gps_title">GPS Check</string>
+    <string name="gps_content">GPS Check Result</string>
+
+    <string name="sdcard_title">SD Card Check</string>
+    <string name="sdcard_content">SD Card Check Result</string>
+
+    <string name="rooted">Firmware Rooted!</string>
+    <string name="no_rooted">Firmware Not Rooted!</string>
+
+    <string name="no_error">PASS</string>
+    <string name="error">Not Removed</string>
+
+    <string name="progress_title">Checking...</string>
+    <string name="progress_content">Security Checking...</string>
+
+    <string name="retry_btn">Retry</string>
+    <string name="progressing">Please wait</string>
+
+    <string name="no_pass_title">Security FAIL</string>
+    <string name="pass_title">Security PASS</string>
+
+    <string name="no_pass_content">Resolve the insufficiency, try again.</string>
+    <string name="pass_content">It is good to bring it into a unit.</string>
+</resources>

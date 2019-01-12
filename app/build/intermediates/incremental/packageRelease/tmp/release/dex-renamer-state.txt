@@ -1,0 +1,4 @@
+#Sat Jan 12 11:59:19 KST 2019
+base.0=/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

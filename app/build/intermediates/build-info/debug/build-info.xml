@@ -2,11 +2,12 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="COLD"
+    build-mode="FULL"
     density="420dpi"
     format="10"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.2.1"
-    timestamp="1546335069734"
+    timestamp="1547261912496"
     token="-5213926379872717207"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -18,19 +19,55 @@
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="101" />
     <task
         name="verifier"
-        duration="0" />
+        duration="9" />
 
     <artifact
         location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1546334941520"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1547261912496"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -39,22 +76,19 @@
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
@@ -63,22 +97,17 @@
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1546335069734"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
     </build>
 
 </instant-run>

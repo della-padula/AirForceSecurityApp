@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "/Users/terry/AndroidStudioProjects/ROKAFSecurityCheck/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b4db7c8304e14f0c5193200d60978060/res/values-port/values-port.xml",
+                    "source": "/Users/terry/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/df32f6bd1b7b4d031b77530addae2a5b/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
